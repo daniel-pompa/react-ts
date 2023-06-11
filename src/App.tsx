@@ -1,6 +1,7 @@
 import Counter from './components/Counter';
 import User from './components/User';
 import ParentTimer from './components/ParentTimer';
+import ReducerCounter from './components/ReducerCounter';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <User />
       <hr />
       <ParentTimer />
+      <hr />
+      <ReducerCounter />
       <hr />
     </div>
   );
