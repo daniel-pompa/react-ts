@@ -1,5 +1,6 @@
 import Counter from './components/Counter';
 import User from './components/User';
+import ParentTimer from './components/ParentTimer';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Counter />
       <hr />
       <User />
+      <hr />
+      <ParentTimer />
       <hr />
     </div>
   );
