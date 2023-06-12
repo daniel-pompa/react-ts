@@ -2,6 +2,7 @@ import Counter from './components/Counter';
 import User from './components/User';
 import ParentTimer from './components/ParentTimer';
 import ReducerCounter from './components/ReducerCounter';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <ParentTimer />
       <hr />
       <ReducerCounter />
+      <hr />
+      <Form />
       <hr />
     </div>
   );
